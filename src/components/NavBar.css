@@ -1,0 +1,19 @@
+.NavBar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.17);
+
+}
+
+.NavBar-header{
+    padding: 5px;
+    text-align: left;
+    font-size: 30px;
+    font-family: azonix;
+}
+
+@font-face {
+    font-family: azonix;
+    src: url("../fonts/Azonix.otf");
+}
