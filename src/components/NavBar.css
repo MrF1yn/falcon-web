@@ -1,16 +1,21 @@
 .NavBar{
+    z-index: 1000;
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.17);
-
+    background-color: #222831;
 }
 
+
+
 .NavBar-header{
-    padding: 5px;
+
+    color: #d3d3d3;
+    padding: 7px;
     text-align: left;
     font-size: 30px;
     font-family: azonix;
+
 }
 
 @font-face {

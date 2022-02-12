@@ -5,7 +5,7 @@ function NavBar() {
     return (
         <div className="NavBar">
             <header className="NavBar-header">
-                FALCON
+                F A L C O N
             </header>
         </div>
     );

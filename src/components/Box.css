@@ -1,0 +1,10 @@
+.Box{
+    position: absolute;
+    top: 380px;
+    width: 100%;
+    height: 1000px;
+    /*background-image: url("../slanted-gradient.svg");*/
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(34, 40, 49, 0.55);
+}
