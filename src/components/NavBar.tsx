@@ -1,12 +1,32 @@
 import React from 'react';
 import './NavBar.css';
+import './CoolBtn.css';
 
 function NavBar() {
     return (
         <div className="NavBar">
+
             <header className="NavBar-header">
                 F A L C O N
             </header>
+            <div className={"ButtonDiv"}>
+                <button className={"coolBtn"}>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>HomePage</button>
+                <button className={"coolBtn"}>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>Resources</button>
+                <button className={"coolBtn"}>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>About Us</button>
+
+            </div>
         </div>
     );
 }
