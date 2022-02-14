@@ -1,5 +1,5 @@
 .Box{
-    position: absolute;
+    position: relative;
     top: 380px;
     width: 100%;
     height: 1000px;

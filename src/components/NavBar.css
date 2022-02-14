@@ -3,6 +3,7 @@
     position: fixed;
     top: 0;
     width: 100%;
+    overflow: hidden;
     background-color: rgba(34, 40, 49, 0.93);
     display: flex;
     justify-content: space-between;
@@ -12,7 +13,55 @@
 }
 
 
+.NavBar .logoSpan {
 
+    position: absolute;
+
+}
+
+.NavBar .logoSpan:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #d3d3d3);
+    animation: SpanTop 20s linear 0s infinite forwards;
+
+}
+
+.NavBar .logoSpan:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #d3d3d3);
+    animation: SpanRight 20s linear 2.0s infinite forwards;
+}
+
+.NavBar .logoSpan:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #d3d3d3);
+    animation: SpanBottom 20s linear 4.0s infinite forwards;
+}
+
+.NavBar .logoSpan:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #d3d3d3);
+    animation: SpanLeft 20s linear 6.0s infinite forwards;
+}
+
+.logoSpan:nth-child(2)
+.logoSpan:nth-child(2)
+.logoSpan:nth-child(2) {
+    transition: none;
+    transition-delay: initial;
+}
 
 
 .NavBar-header{
@@ -22,8 +71,40 @@
     text-align: left;
     font-size: 35px;
     font-family: azonix;
+    letter-spacing: 15px;
+    animation: glow 20s linear 0s infinite forwards;
 
 
+}
+@keyframes SpanTop {
+    0% {    left: -100%;}
+    20% {    left: 100%;}
+    100% {    left: 100%;}
+
+}
+@keyframes SpanBottom {
+    0% {    right: -100%;}
+    20% {    right: 100%;}
+    100% {    right: 100%;}
+}
+
+@keyframes SpanRight {
+    0% {top: -100%;}
+    20% {top: 100%;}
+    100% {top: 100%;}
+}
+@keyframes SpanLeft {
+    0% {bottom: -100%;}
+    20% {bottom: 100%;}
+    100% {bottom: 100%;}
+}
+
+@keyframes glow {
+    0% {text-shadow: 0 0 10px rgba(255, 255, 255, 0);}
+    20%{text-shadow: 0 0 10px rgba(255, 255, 255, 0.58);}
+    40%{text-shadow: 0 0 10px rgba(255, 255, 255, 0.58);}
+    60%{text-shadow: 0 0 10px rgba(255, 255, 255, 0);}
+    100%{text-shadow: 0 0 10px rgba(255, 255, 255, 0);}
 }
 
 @font-face {

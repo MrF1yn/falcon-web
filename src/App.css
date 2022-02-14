@@ -3,13 +3,20 @@
   text-align: center;
 }
 
+.footer{
+  /*position: relative;*/
+  /*top: 380px;*/
+  /*min-height: 300px;*/
+  /*width: 100%;*/
+  /*background-color: red;*/
+}
+
+
+
 body{
-
-
   background-image: url("./slanted-gradient.svg");
   background-attachment: fixed;
   background-size: cover;
-
 }
 
 

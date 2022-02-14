@@ -2,13 +2,17 @@ import React from 'react';
 import './NavBar.css';
 import './CoolBtn.css';
 
+
 function NavBar() {
     return (
         <div className="NavBar">
-
-            <header className="NavBar-header">
-                F A L C O N
-            </header>
+                <span className={"logoSpan"}></span>
+                <span className={"logoSpan"}></span>
+                <span className={"logoSpan"}></span>
+                <span className={"logoSpan"}></span>
+                <header className="NavBar-header">
+                    FALCON
+                </header>
             <div className={"ButtonDiv"}>
                 <button className={"coolBtn"}>
                     <span></span>
