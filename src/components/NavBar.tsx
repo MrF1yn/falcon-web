@@ -11,7 +11,7 @@ function NavBar() {
                 <span className={"logoSpan"}></span>
                 <span className={"logoSpan"}></span>
                 <header className="NavBar-header">
-                    FALCON
+                    vectlabs
                 </header>
             <div className={"ButtonDiv"}>
                 <button className={"coolBtn"}>

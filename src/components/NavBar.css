@@ -70,8 +70,8 @@
     padding: 7px;
     text-align: left;
     font-size: 35px;
-    font-family: azonix;
-    letter-spacing: 15px;
+    font-family: telemarines1;
+    letter-spacing: 10px;
     animation: glow 20s linear 0s infinite forwards;
 
 
@@ -108,6 +108,6 @@
 }
 
 @font-face {
-    font-family: azonix;
-    src: url("../fonts/Azonix.otf");
+    font-family: telemarines1;
+    src: url("../fonts/telemarines1.ttf");
 }
