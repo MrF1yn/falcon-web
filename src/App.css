@@ -1,6 +1,7 @@
 
 .App {
   text-align: center;
+
 }
 
 .footer{
@@ -14,9 +15,10 @@
 
 
 body{
-  background-image: url("./slanted-gradient.svg");
+  background-image: url("./background1.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
+
 
 
