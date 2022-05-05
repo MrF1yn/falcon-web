@@ -1,0 +1,12 @@
+.FakeNavBar{
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 7.365%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.83);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

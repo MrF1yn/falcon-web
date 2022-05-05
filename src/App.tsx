@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './App.css';
 import {
     BrowserRouter,
@@ -10,23 +10,26 @@ import NavBar from "./components/NavBar";
 
 import Resources from "./pages/Resources";
 import HomePage from "./pages/HomePage";
+import FakeNavBar from "./components/FakeNavBar";
 
-
-function App() {
-  return (
-    <div className="App">
-      <NavBar></NavBar>
-        <body>
-        <BrowserRouter>
-            <Routes>
-                <Route path="Resources/*" element={<Resources/>}/>
-                <Route path="/*" element={<HomePage/>}/>
-            </Routes>
-        </BrowserRouter>
-        </body>
-    </div>
-  );
+export default class App extends Component <{}> {
+    render() {
+        return (
+            <div className="App">
+                <NavBar/>
+                <FakeNavBar></FakeNavBar>
+                <div className="filter"></div>
+                <BrowserRouter>
+                    <Routes>
+                        <Route path="Resources/*" element={<Resources/>}/>
+                        <Route path="/*" element={<HomePage/>}/>
+                    </Routes>
+                </BrowserRouter>
+            </div>
+        );
+    }
 }
 
 
-export default App;
+
+// export default App;
