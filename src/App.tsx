@@ -17,8 +17,8 @@ export default class App extends Component <{}> {
         return (
             <div className="App">
                 <NavBar/>
-                <FakeNavBar></FakeNavBar>
-                <div className="filter"></div>
+                <FakeNavBar/>
+                <div className="filter"/>
                 <BrowserRouter>
                     <Routes>
                         <Route path="Resources/*" element={<Resources/>}/>

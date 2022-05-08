@@ -20,7 +20,7 @@ export default class NavBar extends Component <{}> {
     render() {
 
         return (
-            <div className="NavBar">
+            <div className="NavBar" id="NB1">
                 <span className={"logoSpan"}></span>
                 <span className={"logoSpan"}></span>
                 <span className={"logoSpan"}></span>
