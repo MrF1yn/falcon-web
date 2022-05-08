@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.702b67ac.css",
-    "main.js": "/static/js/main.e7256cd9.js",
+    "main.css": "/static/css/main.2b47a7d7.css",
+    "main.js": "/static/js/main.de8a7720.js",
     "static/js/787.eab9e4b8.chunk.js": "/static/js/787.eab9e4b8.chunk.js",
     "static/media/background1-min.jpg": "/static/media/background1-min.2653bcccdbd225535226.jpg",
     "static/media/telemarines1.ttf": "/static/media/telemarines1.5ec1829d44f7768d40f7.ttf",
     "index.html": "/index.html",
-    "main.702b67ac.css.map": "/static/css/main.702b67ac.css.map",
-    "main.e7256cd9.js.map": "/static/js/main.e7256cd9.js.map",
+    "main.2b47a7d7.css.map": "/static/css/main.2b47a7d7.css.map",
+    "main.de8a7720.js.map": "/static/js/main.de8a7720.js.map",
     "787.eab9e4b8.chunk.js.map": "/static/js/787.eab9e4b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.702b67ac.css",
-    "static/js/main.e7256cd9.js"
+    "static/css/main.2b47a7d7.css",
+    "static/js/main.de8a7720.js"
   ]
 }
